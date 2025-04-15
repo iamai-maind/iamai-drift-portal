@@ -1,0 +1,6 @@
+# .gitignore for Drift Portal
+.DS_Store
+.env
+*.log
+node_modules/
+.vercel
