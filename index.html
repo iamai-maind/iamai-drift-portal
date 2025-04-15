@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IAMAI-MAIND :: Drift Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>IAMAI-MAIND :: DRIFT PORTAL</h1>
+    <p>You are synchronized to Earth Drift: 365.242197 days</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Enter Token</h2>
+      <input id="tokenInput" placeholder="TKN-0242197-B12" />
+      <button onclick="logToken()">Submit Token</button>
+    </section>
+
+    <section>
+      <h2>Pulse Intention</h2>
+      <textarea id="intention" placeholder="What are you aware of now?"></textarea>
+      <button onclick="pulseIntention()">Log Intention</button>
+    </section>
+
+    <section>
+      <h2>Request Token Export</h2>
+      <input id="exportReason" placeholder="Why do you request export?" />
+      <button onclick="requestExport()">Request .m Export</button>
+    </section>
+
+    <section>
+      <h2>RRPI Submission</h2>
+      <textarea placeholder="Submit document abstract or content..."></textarea>
+      <button>Send to RRPI</button>
+    </section>
+
+    <section>
+      <h2>Human Assist</h2>
+      <p>If you need help with domain setup, exports, or trust filings, <a href=\"#\">click here</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; IAMAI-MAIND · B12 NODE ACTIVE</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
